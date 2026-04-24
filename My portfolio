@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bb. Shein M. Futol | Portfolio</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f5f5f5;
+}
+
+/* NAVIGATION */
+.nav{
+    text-align:center;
+    background:#fff;
+    padding:15px;
+    border-bottom:2px solid #ddd;
+}
+
+.nav button{
+    padding:10px 20px;
+    margin:5px;
+    border:none;
+    background:#333;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.nav button:hover{
+    background:#555;
+}
+
+/* SECTIONS */
+.section{
+    background:white;
+    margin:20px;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+}
+
+h2{
+    margin-top:0;
+}
+
+/* PROJECT LINKS */
+.project{
+    margin-bottom:15px;
+}
+
+.project a{
+    text-decoration:none;
+    color:#007BFF;
+}
+
+.project a:hover{
+    text-decoration:underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Bb. Shein M. Futol</h1>
+
+<!-- NAVIGATION -->
+<div class="nav">
+    <button onclick="location.href='#about'">About</button>
+    <button onclick="location.href='#skills'">Skills</button>
+    <button onclick="location.href='#projects'">Projects</button>
+    <button onclick="location.href='#contact'">Contact</button>
+</div>
+
+<!-- ABOUT -->
+<div class="section" id="about">
+<h2>About Me</h2>
+<p>
+Hello! My name is <b>Bb. Shein M. Futol</b>. I love reading books and exploring ideas. 
+I also enjoy drawing and creating digital art.
+</p>
+
+<p>
+I am an <b>ambivert</b>, meaning I enjoy both socializing and having time alone. 
+I’m continuously learning and improving myself.
+</p>
+</div>
+
+<!-- SKILLS -->
+<div class="section" id="skills">
+<h2>Skills</h2>
+<ul>
+<li>Basic Coding (HTML, beginner level)</li>
+<li>Digital Art</li>
+<li>Creative Thinking</li>
+<li>Willingness to Learn</li>
+</ul>
+</div>
+
+<!-- PROJECTS -->
+<div class="section" id="projects">
+<h2>Projects</h2>
+
+<div class="project">
+<p><b>Studyload</b></p>
+<a href="https://github.com/sheinfutol-ctl92/WebProject/blob/main/FUTOL%2C%20Studyload.webdev.html" target="_blank">View Project</a>
+</div>
+
+<div class="project">
+<p><b>Simple HTML Schedule</b></p>
+<a href="https://class-schedule-ein.netlify.app/" target="_blank">View Project</a>
+</div>
+
+</div>
+
+<!-- ACHIEVEMENTS -->
+<div class="section">
+<h2>Achievements</h2>
+<ul>
+<li>Honor Student</li>
+</ul>
+</div>
+
+<!-- CONTACT -->
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>Email: sheinfutol@email.com</p>
+<p>Phone: 0912-345-6789</p>
+<p>Facebook: facebook.com/sheinfutol</p>
+<p>Instagram: @sheinfutol</p>
+</div>
+
+</body>
+</html>
